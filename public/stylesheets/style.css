@@ -1,0 +1,213 @@
+ body {
+  padding-top: 45px;
+  font-size: 18px;
+  font-family: 'Lato',serif;
+
+}
+
+
+a {
+  /*color: #00B7FF;*/
+}
+.navbar {
+	margin-bottom: 0;
+	background: #FF8105;
+	font-family: 'Damion',serif;
+}
+.navbar-brand {
+	/*font-family: 'Tangerine',serif;*/
+	font-size: 28px;
+	font-weight: bold;
+	/*background: #29241E;*/
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+.navbar-header {
+	padding-right: 100px;
+}
+
+.navbar-header img {
+	height: 100%;
+	width: 50%;
+}
+.navLinks li a {
+	/*text-decoration: underline;*/
+	color: white;
+	font-size: 18px;
+
+}
+
+
+.icon-bar {
+	background: white;
+}
+
+.navbar-toggle:hover {
+	/*background: black;*/
+	/*color:black;*/
+
+}
+
+/*caffeine agent*/
+
+.jumboBackground {
+	background: #FEF0D6 url('../images/Image 507@2x.png') no-repeat center center;
+	/*-webkit-background-size: contain;
+  	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: cover;*/
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  	/*height: 400px;*/
+}
+
+.push-height {
+	height: 400px;
+}
+
+.jumbotron h1 {
+	color:white;
+}
+.jumbotron-title {
+	font-family: 'Lato',serif;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+.productDescription {
+	font-family: 'Lato',serif;
+	color: white;
+	background: -moz-linear-gradient(top, #ff8105 0, #FFA64E 100%);/* FF3.6+ */
+	background: -webkit-gradient(linear, top, color-stop(0, FF8105), color-stop(100%, FFA64E));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FF8105 0, #FFA64E 100%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f7f0b7 0, #b57c12 100%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f7f0b7 0, #b57c12 100%);/* IE10+ */
+	background: linear-gradient(top, #FF8105 0, #FFA64E 100%);
+
+}
+.mission-title {
+	text-align: center;
+}
+.mission {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	line-height: 150%;
+	padding:20px 0 40px 0;
+
+}
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }
+
+
+.leftVisual {
+	
+}
+
+
+.options-statement {
+	text-align: right;
+}
+
+.description {
+	line-height: 150%;
+	/*width: 90%;*/
+}
+.tech-left {
+	text-align: left;
+	color:#527DA8;
+	padding: 10px 0 40px 0;
+	/*width:60%;*/
+}
+
+.tech-right {
+	text-align: right;
+	color:#FF8C00;
+	padding: 10px 0 40px 0;
+	/*width:50%;*/
+}
+.coverImages {
+	margin-top: 80px;
+}
+.rightCoverImg {
+	/*text-align: right;*/
+}
+footer {
+	margin-top: 60px;
+}
+
+.caffInfoTables {
+	padding-top: 20px;
+	height: 400px;
+}
+
+.caffDataTable {
+	height: 100%;
+	overflow: auto;
+}
+.scrollTable {
+	overflow: scroll;
+}
+
+.unEditableDrinks {
+	position: relative;
+}
+
+.unEditableDrinks.ng-enter-stagger,
+.unEditableDrinks.ng-leave-stagger, 
+.unEditableDrinks.ng-leave-stagger {
+ 
+  /* 200ms will be applied between each sucessive enter operation */ 
+  -webkit-animation-delay:0.2s;
+  animation-delay:0.2s;
+
+  /* this is here to avoid accidental CSS inheritance */
+  -webkit-animation-duration:0;
+  /*animation-duration:0;*/
+}
+
+
+.unEditableDrinks.ng-move,
+.unEditableDrinks.ng-enter {
+  opacity: 0;
+  -webkit-animation:enter_animation 0.3s;
+  animation:enter_animation 0.3s;
+}
+
+.unEditableDrinks.ng-leave {
+  -webkit-animation:leave_animation 0.3s;
+  animation:leave_animation 0.3s;
+}
+
+
+@-webkit-keyframes enter_animation {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+@keyframes enter_animation {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+@-webkit-keyframes leave_animation {
+  from { opacity:1; }
+  to { opacity:0; }
+}
+
+@keyframes leave_animation {
+  from { opacity:1; }
+  to { opacity:0; }
+}

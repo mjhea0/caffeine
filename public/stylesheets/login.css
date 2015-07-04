@@ -1,0 +1,40 @@
+.form-login {
+	width: 60%;
+	margin:0 auto;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+}
+
+
+.loginPage {
+	font-family: 'Lato',serif;
+	color: white;
+	background: url('../images/caffeineBeans.png');
+	height: 800px;
+}
+
+.logo-header {
+	text-align: center;
+}
+
+.logo-header img {
+	margin-top: 20px;
+}
+
+.form-login {
+	background: rgba(73, 137, 180, 0.81);
+
+}
+
+.userInput {
+	width: 80%;
+	margin: auto;
+	padding: 10px 0;
+}
+
+.userInput input{
+	border-radius: 10px;
+}
