@@ -1,5 +1,5 @@
 
-var app = angular.module('myApp', ['ui.router','ui.bootstrap','angularUtils.directives.dirPagination','ui.calendar','ngAnimate'], function ($interpolateProvider) {
+var app = angular.module('myApp', ['ui.router','ui.bootstrap','angularUtils.directives.dirPagination','ui.calendar'], function ($interpolateProvider) {
   $interpolateProvider.startSymbol('[[');
   $interpolateProvider.endSymbol(']]');
 });
@@ -90,8 +90,3 @@ app.config(function($stateProvider, $urlRouterProvider){
       }
     });
 });
-
-
-
-
-
